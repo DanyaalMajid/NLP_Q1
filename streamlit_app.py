@@ -1,6 +1,8 @@
 import streamlit as st
+import nltk
 from nltk import ngrams
 from nltk.tokenize import word_tokenize
+
 nltk.download('punkt')
 
 # Function to generate n-grams
